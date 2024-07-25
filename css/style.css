@@ -5,6 +5,120 @@
     --logo-and-svgs-color: #95E1D3;
     --titles-color: #333333;
     --navigations-and-line-color: #B6B6B6;
-    --small-line-color: #F38181;
+    --small-line-color-and-hover: #F38181;
     --footer-text-color: #000000;
+    --accent-color: #ffffff;
+}
+
+/* Main font */
+
+body {
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+/* Header */
+
+.header-logo {
+    color: var(--logo-and-svgs-color);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.header-link {
+    color: var(--logo-and-svgs-color);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header-link.current,
+.header-link:hover,
+.header-link:focus {
+    color: var(--small-line-color-and-hover);
+}
+
+/* Main */
+
+.working-subtitle,
+.meet-subtitle {
+    color: var(--titles-color);
+    font-family: var(--third-font-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.working-title,
+.meet-title {
+    color: var(--titles-color);
+    font-weight: 700;
+    font-size: 30px;
+    font-variant: all-small-caps;
+    text-align: center;
+}
+
+.genre-list-title {
+    font-weight: 400;
+    font-size: 14px;
+    font-variant: small-caps;
+}
+
+.genre-list-bio {
+    color: var(--navigations-and-line-color);
+    font-family: var(--second-font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.team-bio {
+    color: var(--navigations-and-line-color);
+    font-family: var(--second-font-family);
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+.team-list-name {
+    color: var(--titles-color);
+    font-weight: 400;
+    font-size: 14px;
+    font-variant: all-small-caps;
+}
+
+.team-list-work {
+    color: var(--navigations-and-line-color);
+    font-weight: var(--second-font-family);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/* Footer */
+
+.footer-copyright {
+    color: var(--titles-color);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer-credits {
+    color: var(--small-line-color-and-hover);
+}
+
+.footer-form-email {
+    color: var(--navigations-and-line-color);
+    font-family: var(--second-family);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footer-form-btn {
+    color: var(--accent-color);
+    background-color: var(--logo-and-svgs-color);
+    font-weight: 700;
+    font-size: 14px;
+    font-variant: all-small-caps;
+    text-align: center;
 }
