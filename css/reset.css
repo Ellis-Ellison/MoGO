@@ -3,11 +3,6 @@
 *::after {
   box-sizing: border-box;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 p,
 h1,
 h2,

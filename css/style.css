@@ -121,4 +121,5 @@ body {
     font-size: 14px;
     font-variant: all-small-caps;
     text-align: center;
+    cursor: pointer;
 }
