@@ -17,7 +17,22 @@ body {
     font-weight: 400;
 }
 
+/* Container */
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    outline: 2px dashed red;
+}
+
 /* Header */
+
+.header {
+    margin-top: 17px;
+    margin-bottom: 68px;
+}
 
 .header-logo {
     color: var(--logo-and-svgs-color);
@@ -39,6 +54,10 @@ body {
 
 /* Main */
 
+.working {
+    margin-bottom: 68px;
+}
+
 .working-subtitle,
 .meet-subtitle {
     color: var(--titles-color);
@@ -57,7 +76,12 @@ body {
     text-align: center;
 }
 
+.genre {
+    margin-bottom: 100px;
+}
+
 .genre-list-title {
+    margin-bottom: 20px;
     font-weight: 400;
     font-size: 14px;
     font-variant: small-caps;
@@ -71,7 +95,11 @@ body {
     line-height: 1.6;
 }
 
-.team-bio {
+.meet {
+    margin-bottom: 27px;
+}
+
+.meet-bio {
     color: var(--navigations-and-line-color);
     font-family: var(--second-font-family);
     font-weight: 400;
@@ -79,7 +107,16 @@ body {
     text-align: center;
 }
 
+.team {
+    margin-bottom: 80px;
+}
+
+.team-list-img {
+    margin-bottom: 30px;
+}
+
 .team-list-name {
+    margin-bottom: 11px;
     color: var(--titles-color);
     font-weight: 400;
     font-size: 14px;
@@ -95,6 +132,10 @@ body {
 }
 
 /* Footer */
+
+.footer-line {
+    border: 1px solid var(--navigations-and-line-color);
+}
 
 .footer-copyright {
     color: var(--titles-color);
